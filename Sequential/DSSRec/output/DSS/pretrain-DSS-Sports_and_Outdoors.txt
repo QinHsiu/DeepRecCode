@@ -1,0 +1,41 @@
+Namespace(data_dir='data', plot_dir='plot', output_dir='output', data_name='Sports_and_Outdoors', gpu_id='0', no_cuda=False, ckp=24, seed=42, model_name='pretrain', hidden_size=64, num_hidden_layers=2, num_attention_heads=2, hidden_act='gelu', attention_probs_dropout_prob=0.1, hidden_dropout_prob=0.1, initializer_range=0.02, max_seq_length=50, lr=0.001, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, do_eval=False, mode='full', batch_size=256, epochs=200, pre_epochs=20, pre_batch_size=256, mask_p=0.2, prop_sliding_window=0.5, s2i_weight=1.0, s2s_weight=1.0, num_intents=4, lambda_=0.1, loss_type='DSS', cuda_condition=True, data_file='data\\Sports_and_Outdoors.txt', checkpoint_path='output\\DSS\\pretrain-DSS-Sports_and_Outdoors-epochs-24.pt', item_size=18359, mask_id=18358, log_file='output\\DSS\\pretrain-DSS-Sports_and_Outdoors.txt')
+S2I-1.0-S2S-1.0
+{'epoch': 0, 'seq2item_loss_avg': '9.9188', 'seq2seq_loss_avg': '2.5409', 'dss_loss_avg': '12.4597'}
+S2I-1.0-S2S-1.0
+{'epoch': 1, 'seq2item_loss_avg': '9.8761', 'seq2seq_loss_avg': '2.0221', 'dss_loss_avg': '11.8981'}
+S2I-1.0-S2S-1.0
+{'epoch': 2, 'seq2item_loss_avg': '9.8369', 'seq2seq_loss_avg': '1.9254', 'dss_loss_avg': '11.7623'}
+S2I-1.0-S2S-1.0
+{'epoch': 3, 'seq2item_loss_avg': '9.7975', 'seq2seq_loss_avg': '1.8967', 'dss_loss_avg': '11.6942'}
+S2I-1.0-S2S-1.0
+{'epoch': 4, 'seq2item_loss_avg': '9.7542', 'seq2seq_loss_avg': '1.8838', 'dss_loss_avg': '11.6380'}
+S2I-1.0-S2S-1.0
+{'epoch': 5, 'seq2item_loss_avg': '9.7093', 'seq2seq_loss_avg': '1.8626', 'dss_loss_avg': '11.5719'}
+S2I-1.0-S2S-1.0
+{'epoch': 6, 'seq2item_loss_avg': '9.6602', 'seq2seq_loss_avg': '1.8270', 'dss_loss_avg': '11.4872'}
+S2I-1.0-S2S-1.0
+{'epoch': 7, 'seq2item_loss_avg': '9.6067', 'seq2seq_loss_avg': '1.8002', 'dss_loss_avg': '11.4069'}
+S2I-1.0-S2S-1.0
+{'epoch': 8, 'seq2item_loss_avg': '9.5446', 'seq2seq_loss_avg': '1.7876', 'dss_loss_avg': '11.3322'}
+S2I-1.0-S2S-1.0
+{'epoch': 9, 'seq2item_loss_avg': '9.4789', 'seq2seq_loss_avg': '1.7577', 'dss_loss_avg': '11.2366'}
+S2I-1.0-S2S-1.0
+{'epoch': 10, 'seq2item_loss_avg': '9.4116', 'seq2seq_loss_avg': '1.7439', 'dss_loss_avg': '11.1555'}
+S2I-1.0-S2S-1.0
+{'epoch': 11, 'seq2item_loss_avg': '9.3311', 'seq2seq_loss_avg': '1.7301', 'dss_loss_avg': '11.0611'}
+S2I-1.0-S2S-1.0
+{'epoch': 12, 'seq2item_loss_avg': '9.2538', 'seq2seq_loss_avg': '1.7250', 'dss_loss_avg': '10.9787'}
+S2I-1.0-S2S-1.0
+{'epoch': 13, 'seq2item_loss_avg': '9.1796', 'seq2seq_loss_avg': '1.6885', 'dss_loss_avg': '10.8681'}
+S2I-1.0-S2S-1.0
+{'epoch': 14, 'seq2item_loss_avg': '9.1060', 'seq2seq_loss_avg': '1.6281', 'dss_loss_avg': '10.7342'}
+S2I-1.0-S2S-1.0
+{'epoch': 15, 'seq2item_loss_avg': '9.0325', 'seq2seq_loss_avg': '1.5951', 'dss_loss_avg': '10.6276'}
+S2I-1.0-S2S-1.0
+{'epoch': 16, 'seq2item_loss_avg': '8.9656', 'seq2seq_loss_avg': '1.5695', 'dss_loss_avg': '10.5351'}
+S2I-1.0-S2S-1.0
+{'epoch': 17, 'seq2item_loss_avg': '8.9027', 'seq2seq_loss_avg': '1.5008', 'dss_loss_avg': '10.4035'}
+S2I-1.0-S2S-1.0
+{'epoch': 18, 'seq2item_loss_avg': '8.8426', 'seq2seq_loss_avg': '1.4281', 'dss_loss_avg': '10.2707'}
+S2I-1.0-S2S-1.0
+{'epoch': 19, 'seq2item_loss_avg': '8.7971', 'seq2seq_loss_avg': '1.3303', 'dss_loss_avg': '10.1274'}
